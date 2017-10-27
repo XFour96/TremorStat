@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		990AB40C1FA3D762000B9067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB40B1FA3D762000B9067 /* AppDelegate.swift */; };
+		990AB40E1FA3D762000B9067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB40D1FA3D762000B9067 /* ViewController.swift */; };
+		990AB4111FA3D762000B9067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990AB40F1FA3D762000B9067 /* Main.storyboard */; };
+		990AB4131FA3D762000B9067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990AB4121FA3D762000B9067 /* Assets.xcassets */; };
+		990AB4161FA3D762000B9067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990AB4141FA3D762000B9067 /* LaunchScreen.storyboard */; };
+		990AB4211FA3D762000B9067 /* TremorStatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB4201FA3D762000B9067 /* TremorStatTests.swift */; };
+		990AB42C1FA3D762000B9067 /* TremorStatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		990AB41D1FA3D762000B9067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990AB4001FA3D762000B9067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990AB4071FA3D762000B9067;
+			remoteInfo = TremorStat;
+		};
+		990AB4281FA3D762000B9067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990AB4001FA3D762000B9067 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990AB4071FA3D762000B9067;
+			remoteInfo = TremorStat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		990AB4081FA3D762000B9067 /* TremorStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremorStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		990AB40B1FA3D762000B9067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		990AB40D1FA3D762000B9067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		990AB4101FA3D762000B9067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		990AB4121FA3D762000B9067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		990AB4151FA3D762000B9067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		990AB4171FA3D762000B9067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990AB41C1FA3D762000B9067 /* TremorStatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremorStatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		990AB4201FA3D762000B9067 /* TremorStatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorStatTests.swift; sourceTree = "<group>"; };
+		990AB4221FA3D762000B9067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990AB4271FA3D762000B9067 /* TremorStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremorStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorStatUITests.swift; sourceTree = "<group>"; };
+		990AB42D1FA3D762000B9067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		990AB4051FA3D762000B9067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990AB4191FA3D762000B9067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990AB4241FA3D762000B9067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		990AB3FF1FA3D762000B9067 = {
+			isa = PBXGroup;
+			children = (
+				990AB40A1FA3D762000B9067 /* TremorStat */,
+				990AB41F1FA3D762000B9067 /* TremorStatTests */,
+				990AB42A1FA3D762000B9067 /* TremorStatUITests */,
+				990AB4091FA3D762000B9067 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		990AB4091FA3D762000B9067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				990AB4081FA3D762000B9067 /* TremorStat.app */,
+				990AB41C1FA3D762000B9067 /* TremorStatTests.xctest */,
+				990AB4271FA3D762000B9067 /* TremorStatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990AB40A1FA3D762000B9067 /* TremorStat */ = {
+			isa = PBXGroup;
+			children = (
+				990AB40B1FA3D762000B9067 /* AppDelegate.swift */,
+				990AB40D1FA3D762000B9067 /* ViewController.swift */,
+				990AB40F1FA3D762000B9067 /* Main.storyboard */,
+				990AB4121FA3D762000B9067 /* Assets.xcassets */,
+				990AB4141FA3D762000B9067 /* LaunchScreen.storyboard */,
+				990AB4171FA3D762000B9067 /* Info.plist */,
+			);
+			path = TremorStat;
+			sourceTree = "<group>";
+		};
+		990AB41F1FA3D762000B9067 /* TremorStatTests */ = {
+			isa = PBXGroup;
+			children = (
+				990AB4201FA3D762000B9067 /* TremorStatTests.swift */,
+				990AB4221FA3D762000B9067 /* Info.plist */,
+			);
+			path = TremorStatTests;
+			sourceTree = "<group>";
+		};
+		990AB42A1FA3D762000B9067 /* TremorStatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */,
+				990AB42D1FA3D762000B9067 /* Info.plist */,
+			);
+			path = TremorStatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		990AB4071FA3D762000B9067 /* TremorStat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990AB4301FA3D762000B9067 /* Build configuration list for PBXNativeTarget "TremorStat" */;
+			buildPhases = (
+				990AB4041FA3D762000B9067 /* Sources */,
+				990AB4051FA3D762000B9067 /* Frameworks */,
+				990AB4061FA3D762000B9067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TremorStat;
+			productName = TremorStat;
+			productReference = 990AB4081FA3D762000B9067 /* TremorStat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		990AB41B1FA3D762000B9067 /* TremorStatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990AB4331FA3D762000B9067 /* Build configuration list for PBXNativeTarget "TremorStatTests" */;
+			buildPhases = (
+				990AB4181FA3D762000B9067 /* Sources */,
+				990AB4191FA3D762000B9067 /* Frameworks */,
+				990AB41A1FA3D762000B9067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				990AB41E1FA3D762000B9067 /* PBXTargetDependency */,
+			);
+			name = TremorStatTests;
+			productName = TremorStatTests;
+			productReference = 990AB41C1FA3D762000B9067 /* TremorStatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		990AB4261FA3D762000B9067 /* TremorStatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990AB4361FA3D762000B9067 /* Build configuration list for PBXNativeTarget "TremorStatUITests" */;
+			buildPhases = (
+				990AB4231FA3D762000B9067 /* Sources */,
+				990AB4241FA3D762000B9067 /* Frameworks */,
+				990AB4251FA3D762000B9067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				990AB4291FA3D762000B9067 /* PBXTargetDependency */,
+			);
+			name = TremorStatUITests;
+			productName = TremorStatUITests;
+			productReference = 990AB4271FA3D762000B9067 /* TremorStatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		990AB4001FA3D762000B9067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Best Software";
+				TargetAttributes = {
+					990AB4071FA3D762000B9067 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					990AB41B1FA3D762000B9067 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 990AB4071FA3D762000B9067;
+					};
+					990AB4261FA3D762000B9067 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 990AB4071FA3D762000B9067;
+					};
+				};
+			};
+			buildConfigurationList = 990AB4031FA3D762000B9067 /* Build configuration list for PBXProject "TremorStat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 990AB3FF1FA3D762000B9067;
+			productRefGroup = 990AB4091FA3D762000B9067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				990AB4071FA3D762000B9067 /* TremorStat */,
+				990AB41B1FA3D762000B9067 /* TremorStatTests */,
+				990AB4261FA3D762000B9067 /* TremorStatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		990AB4061FA3D762000B9067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990AB4161FA3D762000B9067 /* LaunchScreen.storyboard in Resources */,
+				990AB4131FA3D762000B9067 /* Assets.xcassets in Resources */,
+				990AB4111FA3D762000B9067 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990AB41A1FA3D762000B9067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990AB4251FA3D762000B9067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		990AB4041FA3D762000B9067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990AB40E1FA3D762000B9067 /* ViewController.swift in Sources */,
+				990AB40C1FA3D762000B9067 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990AB4181FA3D762000B9067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990AB4211FA3D762000B9067 /* TremorStatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990AB4231FA3D762000B9067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990AB42C1FA3D762000B9067 /* TremorStatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		990AB41E1FA3D762000B9067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990AB4071FA3D762000B9067 /* TremorStat */;
+			targetProxy = 990AB41D1FA3D762000B9067 /* PBXContainerItemProxy */;
+		};
+		990AB4291FA3D762000B9067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990AB4071FA3D762000B9067 /* TremorStat */;
+			targetProxy = 990AB4281FA3D762000B9067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		990AB40F1FA3D762000B9067 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990AB4101FA3D762000B9067 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		990AB4141FA3D762000B9067 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990AB4151FA3D762000B9067 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		990AB42E1FA3D762000B9067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		990AB42F1FA3D762000B9067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		990AB4311FA3D762000B9067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TremorStat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		990AB4321FA3D762000B9067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TremorStat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		990AB4341FA3D762000B9067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TremorStatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TremorStat.app/TremorStat";
+			};
+			name = Debug;
+		};
+		990AB4351FA3D762000B9067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TremorStatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TremorStat.app/TremorStat";
+			};
+			name = Release;
+		};
+		990AB4371FA3D762000B9067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TremorStatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TremorStat;
+			};
+			name = Debug;
+		};
+		990AB4381FA3D762000B9067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TremorStatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TremorStat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		990AB4031FA3D762000B9067 /* Build configuration list for PBXProject "TremorStat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990AB42E1FA3D762000B9067 /* Debug */,
+				990AB42F1FA3D762000B9067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990AB4301FA3D762000B9067 /* Build configuration list for PBXNativeTarget "TremorStat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990AB4311FA3D762000B9067 /* Debug */,
+				990AB4321FA3D762000B9067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990AB4331FA3D762000B9067 /* Build configuration list for PBXNativeTarget "TremorStatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990AB4341FA3D762000B9067 /* Debug */,
+				990AB4351FA3D762000B9067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990AB4361FA3D762000B9067 /* Build configuration list for PBXNativeTarget "TremorStatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990AB4371FA3D762000B9067 /* Debug */,
+				990AB4381FA3D762000B9067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 990AB4001FA3D762000B9067 /* Project object */;
+}
