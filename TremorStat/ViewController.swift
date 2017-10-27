@@ -28,6 +28,8 @@ class ViewController: UIViewController {
     @IBAction func settingsButton(_ sender: UIButton) {
     }
     
+    // THIS IS A TEST MESSAGE
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
