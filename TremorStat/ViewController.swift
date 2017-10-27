@@ -14,7 +14,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
+    @IBAction func tremorTestButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func dataResultsButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func userProfileButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func settingsButton(_ sender: UIButton) {
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -22,4 +35,5 @@ class ViewController: UIViewController {
 
 
 }
+
 
