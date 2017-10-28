@@ -31,7 +31,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //self.dataSource = self
+        self.dataSource = self
         
         // This sets up the first view that will show up on our page control
         if let firstViewController = orderedViewControllers.first {
@@ -41,7 +41,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDelegate, UI
                                completion: nil)
         }
         
-        //self.delegate = self
+        self.delegate = self
         configurePageControl()
 
         // Do any additional setup after loading the view.

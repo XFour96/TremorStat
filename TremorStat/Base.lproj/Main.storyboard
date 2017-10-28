@@ -28,7 +28,7 @@
                                 </state>
                                 <connections>
                                     <action selector="tremorTestButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybZ-q8-TLJ"/>
-                                    <segue destination="T3B-Lh-gCh" kind="show" id="kKz-qB-K2t"/>
+                                    <segue destination="qf3-4m-ATV" kind="show" id="yAJ-YY-m6c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mug-nw-b1W">
@@ -810,11 +810,10 @@
         <!--Page View Controller-->
         <scene sceneID="07I-Fs-brt">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="qf3-4m-ATV" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="qf3-4m-ATV" customClass="PageViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
-                        <segue destination="T3B-Lh-gCh" kind="show" id="Mxa-rO-7uM"/>
-                        <segue destination="C60-o1-3au" kind="show" id="icB-oB-guI"/>
-                        <segue destination="T3B-Lh-gCh" kind="show" id="Tbk-pL-MjJ"/>
+                        <segue destination="T3B-Lh-gCh" kind="show" id="1u0-Jw-OE1"/>
+                        <segue destination="C60-o1-3au" kind="show" id="Roa-5a-P12"/>
                     </connections>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WUv-80-arH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -823,7 +822,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kKz-qB-K2t"/>
         <segue reference="OCX-E2-Chk"/>
         <segue reference="zub-Bd-g2R"/>
     </inferredMetricsTieBreakers>
