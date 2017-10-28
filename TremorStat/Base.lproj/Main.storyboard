@@ -798,6 +798,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tzf-g4-VqR">
+                                <rect key="frame" x="44" y="557" width="192" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back Home"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Vlw-ah-1d6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="e1f-RC-pqX"/>
@@ -823,6 +831,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="OCX-E2-Chk"/>
-        <segue reference="zub-Bd-g2R"/>
+        <segue reference="Vlw-ah-1d6"/>
     </inferredMetricsTieBreakers>
 </document>
