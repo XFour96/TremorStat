@@ -78,10 +78,10 @@
             </objects>
             <point key="canvasLocation" x="116" y="118.29085457271366"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="nwr-d0-9MQ">
             <objects>
-                <viewController storyboardIdentifier="UserProfile" id="FiU-nr-qSV" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserProfile" id="FiU-nr-qSV" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ci9-Zv-Sew">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -182,10 +182,10 @@
             </objects>
             <point key="canvasLocation" x="116" y="852.3238380809596"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="1nN-yL-y9x">
             <objects>
-                <viewController storyboardIdentifier="QAgePage" id="NnN-QC-EuI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QAgePage" id="NnN-QC-EuI" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V61-mQ-woD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -232,10 +232,10 @@
             </objects>
             <point key="canvasLocation" x="790" y="851"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="o0h-ao-qRO">
             <objects>
-                <viewController storyboardIdentifier="QDrugsPage" id="M0y-dG-NSs" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QDrugsPage" id="M0y-dG-NSs" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pcg-y2-xsI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,10 +295,10 @@
             </objects>
             <point key="canvasLocation" x="765.60000000000002" y="1541.3793103448277"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="Swd-oK-e4f">
             <objects>
-                <viewController storyboardIdentifier="QFamilyHistoryPage" id="9In-mW-6oW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QFamilyHistoryPage" id="9In-mW-6oW" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A8c-Sr-WVt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,7 +307,7 @@
                                 <rect key="frame" x="68" y="53" width="238" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Does your family have a history of contracting Parkinson's Disease?">
+                                    <fragment content="Does your family have a history of Parkinson's Disease?">
                                         <attributes>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -351,10 +351,10 @@
             </objects>
             <point key="canvasLocation" x="765.60000000000002" y="2212.4437781109445"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="Kag-eN-paw">
             <objects>
-                <viewController storyboardIdentifier="QEnvironmentPage" id="Hdq-1q-45R" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QEnvironmentPage" id="Hdq-1q-45R" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tg7-Jl-8Ql">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -407,10 +407,10 @@
             </objects>
             <point key="canvasLocation" x="1421.5999999999999" y="2213.3433283358322"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="WXJ-se-oKa">
             <objects>
-                <viewController storyboardIdentifier="QStagePage" id="X9j-6I-DU0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QStagePage" id="X9j-6I-DU0" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="evM-cv-jGY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -489,10 +489,10 @@
             </objects>
             <point key="canvasLocation" x="2077.5999999999999" y="2213.3433283358322"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="mcm-oo-T2I">
             <objects>
-                <viewController storyboardIdentifier="QSupplementsPage" id="9hh-U0-8Dn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QSupplementsPage" id="9hh-U0-8Dn" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kwj-kg-xFF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -545,10 +545,10 @@
             </objects>
             <point key="canvasLocation" x="1453.5999999999999" y="1534.1829085457273"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="uem-N2-m6W">
             <objects>
-                <viewController storyboardIdentifier="QHeadTraumaPage" id="bsk-eh-z94" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QHeadTraumaPage" id="bsk-eh-z94" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NqT-AG-CH5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -601,10 +601,10 @@
             </objects>
             <point key="canvasLocation" x="2109.5999999999999" y="1532.3838080959522"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="Gwz-Lt-aGg">
             <objects>
-                <viewController storyboardIdentifier="QAge2Page" id="0vj-gU-SJo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QAge2Page" id="0vj-gU-SJo" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kul-sg-D6h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -651,10 +651,10 @@
             </objects>
             <point key="canvasLocation" x="2748" y="856"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="79k-3H-IAX">
             <objects>
-                <viewController storyboardIdentifier="QGenderPage" id="Xxg-wI-hnG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QGenderPage" id="Xxg-wI-hnG" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YZ2-Nn-X8f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -701,10 +701,10 @@
             </objects>
             <point key="canvasLocation" x="1453" y="856"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="dj9-BJ-ywX">
             <objects>
-                <viewController storyboardIdentifier="QHandPage" id="lUa-lv-Wjl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QHandPage" id="lUa-lv-Wjl" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Whu-Pz-Txa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -751,10 +751,10 @@
             </objects>
             <point key="canvasLocation" x="2078" y="856"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="Xw4-Pk-osh">
             <objects>
-                <viewController storyboardIdentifier="RestTremorPage" id="T3B-Lh-gCh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RestTremorPage" id="T3B-Lh-gCh" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ahY-Sl-Zti">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -783,10 +783,10 @@
             </objects>
             <point key="canvasLocation" x="802" y="118"/>
         </scene>
-        <!--View Controller-->
+        <!--Global View Controller-->
         <scene sceneID="qeN-jl-YJl">
             <objects>
-                <viewController storyboardIdentifier="ActionTremorPage" id="C60-o1-3au" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ActionTremorPage" id="C60-o1-3au" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qaR-Sc-Ysr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -818,7 +818,7 @@
         <!--Page View Controller-->
         <scene sceneID="07I-Fs-brt">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="qf3-4m-ATV" customClass="PageViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController storyboardIdentifier="TremorTestsPage" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="qf3-4m-ATV" customClass="PageViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="T3B-Lh-gCh" kind="show" id="1u0-Jw-OE1"/>
                         <segue destination="C60-o1-3au" kind="show" id="Roa-5a-P12"/>
@@ -831,6 +831,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="OCX-E2-Chk"/>
-        <segue reference="Vlw-ah-1d6"/>
+        <segue reference="zub-Bd-g2R"/>
     </inferredMetricsTieBreakers>
 </document>

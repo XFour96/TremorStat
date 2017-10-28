@@ -15,6 +15,8 @@
 		990AB4211FA3D762000B9067 /* TremorStatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB4201FA3D762000B9067 /* TremorStatTests.swift */; };
 		990AB42C1FA3D762000B9067 /* TremorStatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */; };
 		9943E8F71FA52E2D003C202E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F61FA52E2D003C202E /* PageViewController.swift */; };
+		9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F81FA5465E003C202E /* GlobalViewController.swift */; };
+		9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8FA1FA548A3003C202E /* RestTremorTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorStatUITests.swift; sourceTree = "<group>"; };
 		990AB42D1FA3D762000B9067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9943E8F61FA52E2D003C202E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		9943E8F81FA5465E003C202E /* GlobalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
+		9943E8FA1FA548A3003C202E /* RestTremorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTremorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		990AB3FF1FA3D762000B9067 = {
 			isa = PBXGroup;
 			children = (
+				9943E8F81FA5465E003C202E /* GlobalViewController.swift */,
 				9943E8F61FA52E2D003C202E /* PageViewController.swift */,
 				990AB40A1FA3D762000B9067 /* TremorStat */,
 				990AB41F1FA3D762000B9067 /* TremorStatTests */,
@@ -100,6 +105,7 @@
 		990AB40A1FA3D762000B9067 /* TremorStat */ = {
 			isa = PBXGroup;
 			children = (
+				9943E8FA1FA548A3003C202E /* RestTremorTest.swift */,
 				990AB40B1FA3D762000B9067 /* AppDelegate.swift */,
 				990AB40D1FA3D762000B9067 /* ViewController.swift */,
 				990AB40F1FA3D762000B9067 /* Main.storyboard */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */,
 				9943E8F71FA52E2D003C202E /* PageViewController.swift in Sources */,
+				9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */,
 				990AB40E1FA3D762000B9067 /* ViewController.swift in Sources */,
 				990AB40C1FA3D762000B9067 /* AppDelegate.swift in Sources */,
 			);
@@ -433,7 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUV5LZ574A;
 				INFOPLIST_FILE = TremorStat/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,7 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUV5LZ574A;
 				INFOPLIST_FILE = TremorStat/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
