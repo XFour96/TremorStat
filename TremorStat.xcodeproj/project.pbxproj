@@ -14,6 +14,7 @@
 		990AB4161FA3D762000B9067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990AB4141FA3D762000B9067 /* LaunchScreen.storyboard */; };
 		990AB4211FA3D762000B9067 /* TremorStatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB4201FA3D762000B9067 /* TremorStatTests.swift */; };
 		990AB42C1FA3D762000B9067 /* TremorStatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */; };
+		9943E8F71FA52E2D003C202E /* TremorStatPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F61FA52E2D003C202E /* TremorStatPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		990AB4271FA3D762000B9067 /* TremorStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremorStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorStatUITests.swift; sourceTree = "<group>"; };
 		990AB42D1FA3D762000B9067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9943E8F61FA52E2D003C202E /* TremorStatPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorStatPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		990AB3FF1FA3D762000B9067 = {
 			isa = PBXGroup;
 			children = (
+				9943E8F61FA52E2D003C202E /* TremorStatPageViewController.swift */,
 				990AB40A1FA3D762000B9067 /* TremorStat */,
 				990AB41F1FA3D762000B9067 /* TremorStatTests */,
 				990AB42A1FA3D762000B9067 /* TremorStatUITests */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9943E8F71FA52E2D003C202E /* TremorStatPageViewController.swift in Sources */,
 				990AB40E1FA3D762000B9067 /* ViewController.swift in Sources */,
 				990AB40C1FA3D762000B9067 /* AppDelegate.swift in Sources */,
 			);

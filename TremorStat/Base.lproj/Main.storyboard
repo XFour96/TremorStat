@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainPage" id="BYZ-38-t0r" customClass="ViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,20 +28,7 @@
                                 </state>
                                 <connections>
                                     <action selector="tremorTestButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybZ-q8-TLJ"/>
-                                    <segue destination="T3B-Lh-gCh" kind="show" id="MMU-qL-TWM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ub-79-3Mj">
-                                <rect key="frame" x="62" y="332" width="250" height="125"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.55147442690000004" green="0.82789698369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="User Profile">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.40899421650000001" green="0.63106159569999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="userProfileButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Im-Wy-TnQ"/>
-                                    <segue destination="FiU-nr-qSV" kind="show" id="OCX-E2-Chk"/>
+                                    <segue destination="T3B-Lh-gCh" kind="show" id="kKz-qB-K2t"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mug-nw-b1W">
@@ -58,7 +45,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Oo-AS-tq0">
-                                <rect key="frame" x="62" y="477" width="250" height="125"/>
+                                <rect key="frame" x="62" y="475" width="250" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.55147442690000004" green="0.82789698369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Settings">
@@ -67,6 +54,19 @@
                                 </state>
                                 <connections>
                                     <action selector="settingsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WYa-KS-2WS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ub-79-3Mj">
+                                <rect key="frame" x="62" y="331" width="250" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55147442690000004" green="0.82789698369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="User Profile">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.40899421650000001" green="0.63106159569999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="userProfileButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Im-Wy-TnQ"/>
+                                    <segue destination="FiU-nr-qSV" kind="show" id="OCX-E2-Chk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -81,7 +81,7 @@
         <!--View Controller-->
         <scene sceneID="nwr-d0-9MQ">
             <objects>
-                <viewController id="FiU-nr-qSV" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserProfile" id="FiU-nr-qSV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ci9-Zv-Sew">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,7 +185,7 @@
         <!--View Controller-->
         <scene sceneID="1nN-yL-y9x">
             <objects>
-                <viewController id="NnN-QC-EuI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QAgePage" id="NnN-QC-EuI" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="V61-mQ-woD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,7 +235,7 @@
         <!--View Controller-->
         <scene sceneID="o0h-ao-qRO">
             <objects>
-                <viewController id="M0y-dG-NSs" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QDrugsPage" id="M0y-dG-NSs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pcg-y2-xsI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -298,7 +298,7 @@
         <!--View Controller-->
         <scene sceneID="Swd-oK-e4f">
             <objects>
-                <viewController id="9In-mW-6oW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QFamilyHistoryPage" id="9In-mW-6oW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A8c-Sr-WVt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -354,7 +354,7 @@
         <!--View Controller-->
         <scene sceneID="Kag-eN-paw">
             <objects>
-                <viewController id="Hdq-1q-45R" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QEnvironmentPage" id="Hdq-1q-45R" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tg7-Jl-8Ql">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -410,7 +410,7 @@
         <!--View Controller-->
         <scene sceneID="WXJ-se-oKa">
             <objects>
-                <viewController id="X9j-6I-DU0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QStagePage" id="X9j-6I-DU0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="evM-cv-jGY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -492,7 +492,7 @@
         <!--View Controller-->
         <scene sceneID="mcm-oo-T2I">
             <objects>
-                <viewController id="9hh-U0-8Dn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QSupplementsPage" id="9hh-U0-8Dn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kwj-kg-xFF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -548,7 +548,7 @@
         <!--View Controller-->
         <scene sceneID="uem-N2-m6W">
             <objects>
-                <viewController id="bsk-eh-z94" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QHeadTraumaPage" id="bsk-eh-z94" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NqT-AG-CH5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -604,7 +604,7 @@
         <!--View Controller-->
         <scene sceneID="Gwz-Lt-aGg">
             <objects>
-                <viewController id="0vj-gU-SJo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QAge2Page" id="0vj-gU-SJo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kul-sg-D6h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -654,7 +654,7 @@
         <!--View Controller-->
         <scene sceneID="79k-3H-IAX">
             <objects>
-                <viewController id="Xxg-wI-hnG" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QGenderPage" id="Xxg-wI-hnG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YZ2-Nn-X8f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -704,7 +704,7 @@
         <!--View Controller-->
         <scene sceneID="dj9-BJ-ywX">
             <objects>
-                <viewController id="lUa-lv-Wjl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QHandPage" id="lUa-lv-Wjl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Whu-Pz-Txa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -754,7 +754,7 @@
         <!--View Controller-->
         <scene sceneID="Xw4-Pk-osh">
             <objects>
-                <viewController id="T3B-Lh-gCh" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RestTremorPage" id="T3B-Lh-gCh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ahY-Sl-Zti">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -767,7 +767,7 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="zub-Bd-g2R"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the tests page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1s-Xc-jiQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the rest tremor test page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1s-Xc-jiQ">
                                 <rect key="frame" x="16" y="5" width="343" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -781,10 +781,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvV-Ky-cAV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="118"/>
+            <point key="canvasLocation" x="802" y="118"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qeN-jl-YJl">
+            <objects>
+                <viewController storyboardIdentifier="ActionTremorPage" id="C60-o1-3au" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qaR-Sc-Ysr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the action tremor test page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ru7-Wz-EZ5">
+                                <rect key="frame" x="16" y="20" width="343" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="e1f-RC-pqX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EhV-kA-2mx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1500" y="117"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="07I-Fs-brt">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="qf3-4m-ATV" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="T3B-Lh-gCh" kind="show" id="Mxa-rO-7uM"/>
+                        <segue destination="C60-o1-3au" kind="show" id="icB-oB-guI"/>
+                        <segue destination="T3B-Lh-gCh" kind="show" id="Tbk-pL-MjJ"/>
+                    </connections>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WUv-80-arH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2324" y="118"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="kKz-qB-K2t"/>
         <segue reference="OCX-E2-Chk"/>
         <segue reference="zub-Bd-g2R"/>
     </inferredMetricsTieBreakers>
