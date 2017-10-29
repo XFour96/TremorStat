@@ -67,7 +67,9 @@ class RestTremorTest: ViewController {
         }*/
     }
     
-    
+    /*override func prepare( for segue: UIStoryboardSegue, sender: Any? ){
+        var secondController = segue.destination as! SecondController
+    }*/
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)

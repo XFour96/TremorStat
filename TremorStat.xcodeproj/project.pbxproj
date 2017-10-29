@@ -17,6 +17,7 @@
 		9943E8F71FA52E2D003C202E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F61FA52E2D003C202E /* PageViewController.swift */; };
 		9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F81FA5465E003C202E /* GlobalViewController.swift */; };
 		9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8FA1FA548A3003C202E /* RestTremorTest.swift */; };
+		9943E8FD1FA55BA6003C202E /* TremorTestViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9943E8F61FA52E2D003C202E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		9943E8F81FA5465E003C202E /* GlobalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
 		9943E8FA1FA548A3003C202E /* RestTremorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTremorTest.swift; sourceTree = "<group>"; };
+		9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorTestViewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		990AB40A1FA3D762000B9067 /* TremorStat */ = {
 			isa = PBXGroup;
 			children = (
+				9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */,
 				9943E8FA1FA548A3003C202E /* RestTremorTest.swift */,
 				990AB40B1FA3D762000B9067 /* AppDelegate.swift */,
 				990AB40D1FA3D762000B9067 /* ViewController.swift */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */,
+				9943E8FD1FA55BA6003C202E /* TremorTestViewData.swift in Sources */,
 				9943E8F71FA52E2D003C202E /* PageViewController.swift in Sources */,
 				9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */,
 				990AB40E1FA3D762000B9067 /* ViewController.swift in Sources */,
