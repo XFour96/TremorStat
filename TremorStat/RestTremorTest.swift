@@ -29,6 +29,7 @@ class RestTremorTest: ViewController {
         }
         
         
+        
         var i: Int=0                                //Instantiating Array control variable
         motionManager.gyroUpdateInterval = 0.1      //Setting up gyroscope measurements interval to 0.1 sec
         
@@ -56,6 +57,22 @@ class RestTremorTest: ViewController {
                 weakSelf?.motionManager.stopGyroUpdates()
             }
         }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        // Don't forget to reset when view is being removed
+        motionManager.stopGyroUpdates()
+    }
+    
+    
+    
+    
+    // THIS IS A TEST MESSAGE
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 }
 
