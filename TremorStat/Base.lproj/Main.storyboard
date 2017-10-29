@@ -751,10 +751,25 @@
             </objects>
             <point key="canvasLocation" x="2078" y="856"/>
         </scene>
+        <!--Global View Controller-->
+        <scene sceneID="zIO-ux-D8R">
+            <objects>
+                <viewController storyboardIdentifier="RestTremorResults" id="Jum-kv-zVl" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cb9-MW-tR4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="GZ0-A0-67K"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Xa-JG-vZy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="790" y="-1310"/>
+        </scene>
         <!--Rest Tremor Test-->
         <scene sceneID="C0h-Zn-R7w">
             <objects>
-                <viewController id="O3g-oU-Yfk" customClass="RestTremorTest" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RestTremorTestInProgress" id="O3g-oU-Yfk" customClass="RestTremorTest" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8NR-BB-tlK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

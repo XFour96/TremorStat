@@ -13,6 +13,8 @@ class RestTremorTest: ViewController {
     
     var motionManager = CMMotionManager()
     
+    var showResults = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -55,9 +57,17 @@ class RestTremorTest: ViewController {
             //Stop gyroscope updates when test time is over
             if (timeInstance>=9.9){
                 weakSelf?.motionManager.stopGyroUpdates()
+                self.showResults = true
             }
         }
+        
+       /* if ( self.showResults ){
+            viewWillDisappear(false)
+            
+        }*/
     }
+    
+    
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
