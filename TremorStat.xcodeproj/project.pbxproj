@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10AA41A61FA6EAE0008EAD26 /* upload-sym-util.bash in Resources */ = {isa = PBXBuildFile; fileRef = 10AA41921FA6EADD008EAD26 /* upload-sym-util.bash */; };
+		10AA41A71FA6EAE0008EAD26 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA41931FA6EADD008EAD26 /* FirebaseCoreDiagnostics.framework */; };
+		10AA41A81FA6EAE0008EAD26 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA41941FA6EADD008EAD26 /* FirebaseNanoPB.framework */; };
+		10AA41A91FA6EAE0008EAD26 /* batch-upload in Resources */ = {isa = PBXBuildFile; fileRef = 10AA41951FA6EADD008EAD26 /* batch-upload */; };
+		10AA41AA1FA6EAE0008EAD26 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA41971FA6EADD008EAD26 /* FirebaseCrash.framework */; };
+		10AA41AB1FA6EAE0008EAD26 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA41981FA6EADD008EAD26 /* FirebaseInstanceID.framework */; };
+		10AA41AC1FA6EAE0008EAD26 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA41991FA6EADD008EAD26 /* GTMSessionFetcher.framework */; };
+		10AA41AD1FA6EAE0008EAD26 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA419B1FA6EADE008EAD26 /* FirebaseCore.framework */; };
+		10AA41AE1FA6EAE0008EAD26 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA419C1FA6EADE008EAD26 /* Protobuf.framework */; };
+		10AA41AF1FA6EAE0008EAD26 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA419D1FA6EADE008EAD26 /* nanopb.framework */; };
+		10AA41B01FA6EAE0008EAD26 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 10AA419E1FA6EADE008EAD26 /* README.md */; };
+		10AA41B11FA6EAE0008EAD26 /* upload-sym in Resources */ = {isa = PBXBuildFile; fileRef = 10AA419F1FA6EADE008EAD26 /* upload-sym */; };
+		10AA41B21FA6EAE0008EAD26 /* upload-sym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 10AA41A01FA6EADF008EAD26 /* upload-sym.sh */; };
+		10AA41B31FA6EAE0008EAD26 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA41A11FA6EADF008EAD26 /* GoogleToolboxForMac.framework */; };
+		10AA41B41FA6EAE0008EAD26 /* dump_syms in Resources */ = {isa = PBXBuildFile; fileRef = 10AA41A21FA6EADF008EAD26 /* dump_syms */; };
+		10AA41B51FA6EAE0008EAD26 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA41A31FA6EADF008EAD26 /* FirebaseAnalytics.framework */; };
+		10AA41B61FA6EAE0008EAD26 /* FirebasePerformance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AA41A41FA6EADF008EAD26 /* FirebasePerformance.framework */; };
+		10AA41B71FA6EAE0008EAD26 /* extract-keys in Resources */ = {isa = PBXBuildFile; fileRef = 10AA41A51FA6EADF008EAD26 /* extract-keys */; };
 		990AB40C1FA3D762000B9067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB40B1FA3D762000B9067 /* AppDelegate.swift */; };
 		990AB40E1FA3D762000B9067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB40D1FA3D762000B9067 /* ViewController.swift */; };
 		990AB4111FA3D762000B9067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990AB40F1FA3D762000B9067 /* Main.storyboard */; };
@@ -38,6 +56,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10AA41921FA6EADD008EAD26 /* upload-sym-util.bash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "upload-sym-util.bash"; sourceTree = "<group>"; };
+		10AA41931FA6EADD008EAD26 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		10AA41941FA6EADD008EAD26 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		10AA41951FA6EADD008EAD26 /* batch-upload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "batch-upload"; sourceTree = "<group>"; };
+		10AA41961FA6EADD008EAD26 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		10AA41971FA6EADD008EAD26 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCrash.framework; sourceTree = "<group>"; };
+		10AA41981FA6EADD008EAD26 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		10AA41991FA6EADD008EAD26 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		10AA419A1FA6EADE008EAD26 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		10AA419B1FA6EADE008EAD26 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		10AA419C1FA6EADE008EAD26 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		10AA419D1FA6EADE008EAD26 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		10AA419E1FA6EADE008EAD26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		10AA419F1FA6EADE008EAD26 /* upload-sym */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-sym"; sourceTree = "<group>"; };
+		10AA41A01FA6EADF008EAD26 /* upload-sym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-sym.sh"; sourceTree = "<group>"; };
+		10AA41A11FA6EADF008EAD26 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		10AA41A21FA6EADF008EAD26 /* dump_syms */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dump_syms; sourceTree = "<group>"; };
+		10AA41A31FA6EADF008EAD26 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		10AA41A41FA6EADF008EAD26 /* FirebasePerformance.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebasePerformance.framework; sourceTree = "<group>"; };
+		10AA41A51FA6EADF008EAD26 /* extract-keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "extract-keys"; sourceTree = "<group>"; };
 		990AB4081FA3D762000B9067 /* TremorStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremorStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		990AB40B1FA3D762000B9067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		990AB40D1FA3D762000B9067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +100,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AA41B61FA6EAE0008EAD26 /* FirebasePerformance.framework in Frameworks */,
+				10AA41B31FA6EAE0008EAD26 /* GoogleToolboxForMac.framework in Frameworks */,
+				10AA41A71FA6EAE0008EAD26 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				10AA41A81FA6EAE0008EAD26 /* FirebaseNanoPB.framework in Frameworks */,
+				10AA41AF1FA6EAE0008EAD26 /* nanopb.framework in Frameworks */,
+				10AA41B51FA6EAE0008EAD26 /* FirebaseAnalytics.framework in Frameworks */,
+				10AA41AE1FA6EAE0008EAD26 /* Protobuf.framework in Frameworks */,
+				10AA41AD1FA6EAE0008EAD26 /* FirebaseCore.framework in Frameworks */,
+				10AA41AA1FA6EAE0008EAD26 /* FirebaseCrash.framework in Frameworks */,
+				10AA41AB1FA6EAE0008EAD26 /* FirebaseInstanceID.framework in Frameworks */,
+				10AA41AC1FA6EAE0008EAD26 /* GTMSessionFetcher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +131,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10FD48661FA6D5B900C66E18 /* FireBase */ = {
+			isa = PBXGroup;
+			children = (
+				10AA41951FA6EADD008EAD26 /* batch-upload */,
+				10AA41A21FA6EADF008EAD26 /* dump_syms */,
+				10AA41A51FA6EADF008EAD26 /* extract-keys */,
+				10AA41961FA6EADD008EAD26 /* Firebase.h */,
+				10AA41A31FA6EADF008EAD26 /* FirebaseAnalytics.framework */,
+				10AA419B1FA6EADE008EAD26 /* FirebaseCore.framework */,
+				10AA41931FA6EADD008EAD26 /* FirebaseCoreDiagnostics.framework */,
+				10AA41971FA6EADD008EAD26 /* FirebaseCrash.framework */,
+				10AA41981FA6EADD008EAD26 /* FirebaseInstanceID.framework */,
+				10AA41941FA6EADD008EAD26 /* FirebaseNanoPB.framework */,
+				10AA41A41FA6EADF008EAD26 /* FirebasePerformance.framework */,
+				10AA41A11FA6EADF008EAD26 /* GoogleToolboxForMac.framework */,
+				10AA41991FA6EADD008EAD26 /* GTMSessionFetcher.framework */,
+				10AA419A1FA6EADE008EAD26 /* module.modulemap */,
+				10AA419D1FA6EADE008EAD26 /* nanopb.framework */,
+				10AA419C1FA6EADE008EAD26 /* Protobuf.framework */,
+				10AA419E1FA6EADE008EAD26 /* README.md */,
+				10AA419F1FA6EADE008EAD26 /* upload-sym */,
+				10AA41921FA6EADD008EAD26 /* upload-sym-util.bash */,
+				10AA41A01FA6EADF008EAD26 /* upload-sym.sh */,
+			);
+			path = FireBase;
+			sourceTree = "<group>";
+		};
 		990AB3FF1FA3D762000B9067 = {
 			isa = PBXGroup;
 			children = (
+				10FD48661FA6D5B900C66E18 /* FireBase */,
 				9943E8F81FA5465E003C202E /* GlobalViewController.swift */,
 				9943E8F61FA52E2D003C202E /* PageViewController.swift */,
 				990AB40A1FA3D762000B9067 /* TremorStat */,
@@ -244,8 +321,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10AA41B11FA6EAE0008EAD26 /* upload-sym in Resources */,
+				10AA41B21FA6EAE0008EAD26 /* upload-sym.sh in Resources */,
+				10AA41B71FA6EAE0008EAD26 /* extract-keys in Resources */,
+				10AA41B01FA6EAE0008EAD26 /* README.md in Resources */,
 				990AB4161FA3D762000B9067 /* LaunchScreen.storyboard in Resources */,
 				990AB4131FA3D762000B9067 /* Assets.xcassets in Resources */,
+				10AA41A61FA6EAE0008EAD26 /* upload-sym-util.bash in Resources */,
+				10AA41A91FA6EAE0008EAD26 /* batch-upload in Resources */,
+				10AA41B41FA6EAE0008EAD26 /* dump_syms in Resources */,
 				990AB4111FA3D762000B9067 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,32 +525,46 @@
 		990AB4311FA3D762000B9067 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUV5LZ574A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FireBase",
+				);
 				INFOPLIST_FILE = TremorStat/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$PROJECT_DIR\"";
 			};
 			name = Debug;
 		};
 		990AB4321FA3D762000B9067 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DUV5LZ574A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FireBase",
+				);
 				INFOPLIST_FILE = TremorStat/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Best-Software.TremorStat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$PROJECT_DIR\"";
 			};
 			name = Release;
 		};
