@@ -81,12 +81,16 @@ class RestTremorTest: ViewController {
         }
     }
     @IBAction func cancelTest(_ sender: UIButton) {
+        
+        // added to prevent crashing upon segue back to test start
         cancel = true
     }
     
     override func prepare( for segue: UIStoryboardSegue, sender: Any? ){
         if( cancel != true )
         {
+            // if the test was not cancelled -- set the array on the other view controller to the array here
+            // AKA copy data from the tremor test array for display on the next screen
             var tremorTestViewData = segue.destination as! TremorTestViewData
             tremorTestViewData.dataArray = self.array;
         }
