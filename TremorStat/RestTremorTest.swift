@@ -37,7 +37,7 @@ class RestTremorTest: ViewController {
         var numRows = 3
         //var array = Array<Array<Double>>()
         for rows in 0...numRows {
-            array.append(Array(repeating:0, count:numColumns))
+            self.array.append(Array(repeating:0, count:numColumns))
         }
         
         

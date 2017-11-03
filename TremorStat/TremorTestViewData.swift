@@ -18,13 +18,13 @@ class TremorTestViewData: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    /*convenience init(){
-        self.init( array: [0.0] )
-    }*/
-    
-   /* init( array: Array<Double> ){
-        self.dataArray = array
-    }*/
+    override func viewDidAppear(_ animated: Bool){
+        // test to ensure data transfer
+        
+        for i in 0 ... dataArray.count {
+            print("data from viewData: " ,self.dataArray[0][i], "    ", self.dataArray[1][i], "   ", self.dataArray[2][i])
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
