@@ -11,6 +11,30 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="1JR-AL-ze7">
+            <objects>
+                <viewController id="ZgD-OC-k3W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cXm-CP-4ZI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a launch screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LkV-qM-scM">
+                                <rect key="frame" x="100" y="155" width="174" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="hID-nI-iID"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VXs-xj-iax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-724" y="116"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="MainPage" id="BYZ-38-t0r" customClass="ViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
@@ -807,10 +831,10 @@
             </objects>
             <point key="canvasLocation" x="800.79999999999995" y="-596.85157421289364"/>
         </scene>
-        <!--Rest Tremor Test-->
+        <!--Action Tremor Test-->
         <scene sceneID="KOr-G1-ZwA">
             <objects>
-                <viewController id="ahO-5G-fpk" customClass="RestTremorTest" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ahO-5G-fpk" customClass="ActionTremorTest" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LKd-7R-wmA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -827,7 +851,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cancel Test"/>
                                 <connections>
-                                    <segue destination="C60-o1-3au" kind="show" id="y5T-u3-oCy"/>
+                                    <segue destination="C60-o1-3au" kind="show" id="Ldv-Pq-MpL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -958,10 +982,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bPt-bP-NJH"/>
-        <segue reference="y5T-u3-oCy"/>
-        <segue reference="56k-OS-nQO"/>
+        <segue reference="Roa-5a-P12"/>
+        <segue reference="1u0-Jw-OE1"/>
         <segue reference="Wnv-Y3-ZOe"/>
-        <segue reference="ARx-mq-M3i"/>
+        <segue reference="zub-Bd-g2R"/>
     </inferredMetricsTieBreakers>
 </document>

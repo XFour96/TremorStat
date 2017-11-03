@@ -32,6 +32,7 @@
 		990AB4161FA3D762000B9067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990AB4141FA3D762000B9067 /* LaunchScreen.storyboard */; };
 		990AB4211FA3D762000B9067 /* TremorStatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB4201FA3D762000B9067 /* TremorStatTests.swift */; };
 		990AB42C1FA3D762000B9067 /* TremorStatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */; };
+		992BFE9D1FAD37110054EB33 /* ActionTremorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992BFE9C1FAD37110054EB33 /* ActionTremorTest.swift */; };
 		9943E8F71FA52E2D003C202E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F61FA52E2D003C202E /* PageViewController.swift */; };
 		9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F81FA5465E003C202E /* GlobalViewController.swift */; };
 		9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8FA1FA548A3003C202E /* RestTremorTest.swift */; };
@@ -89,6 +90,7 @@
 		990AB4271FA3D762000B9067 /* TremorStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremorStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		990AB42B1FA3D762000B9067 /* TremorStatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorStatUITests.swift; sourceTree = "<group>"; };
 		990AB42D1FA3D762000B9067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992BFE9C1FAD37110054EB33 /* ActionTremorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTremorTest.swift; sourceTree = "<group>"; };
 		9943E8F61FA52E2D003C202E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		9943E8F81FA5465E003C202E /* GlobalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
 		9943E8FA1FA548A3003C202E /* RestTremorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTremorTest.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		990AB40A1FA3D762000B9067 /* TremorStat */ = {
 			isa = PBXGroup;
 			children = (
+				992BFE9C1FAD37110054EB33 /* ActionTremorTest.swift */,
 				9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */,
 				9943E8FA1FA548A3003C202E /* RestTremorTest.swift */,
 				990AB40B1FA3D762000B9067 /* AppDelegate.swift */,
@@ -355,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992BFE9D1FAD37110054EB33 /* ActionTremorTest.swift in Sources */,
 				9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */,
 				9943E8FD1FA55BA6003C202E /* TremorTestViewData.swift in Sources */,
 				9943E8F71FA52E2D003C202E /* PageViewController.swift in Sources */,
