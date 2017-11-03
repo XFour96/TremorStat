@@ -6,7 +6,6 @@
     <dependencies>
         <deployment version="4144" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,15 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olp-MN-iNd">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olp-MN-iNd">
                                 <rect key="frame" x="25" y="20" width="325" height="150"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.55147442694922821" green="0.82789698371240539" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="olp-MN-iNd" secondAttribute="height" multiplier="13:6" id="597-G0-EMa"/>
-                                    <constraint firstAttribute="width" constant="325" id="9Ta-9Q-xH7"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="MGq-ca-UCz"/>
-                                    <constraint firstAttribute="height" constant="150" id="a8f-mR-wvc"/>
-                                </constraints>
                                 <viewLayoutGuide key="safeArea" id="6tj-eV-F89"/>
                                 <state key="normal" title="Tremor Tests">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -38,15 +32,10 @@
                                     <segue destination="qf3-4m-ATV" kind="show" id="yAJ-YY-m6c"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mug-nw-b1W">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mug-nw-b1W">
                                 <rect key="frame" x="25" y="180" width="325" height="150"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.55147442690000004" green="0.82789698369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="6bD-8v-1KQ"/>
-                                    <constraint firstAttribute="height" constant="150" id="D6S-6z-7pb"/>
-                                    <constraint firstAttribute="width" constant="325" id="F4L-W2-Bxq"/>
-                                    <constraint firstAttribute="width" secondItem="Mug-nw-b1W" secondAttribute="height" multiplier="13:6" id="zlr-SC-UnK"/>
-                                </constraints>
                                 <viewLayoutGuide key="safeArea" id="o1o-rO-mEx"/>
                                 <state key="normal" title="Data Results">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -57,15 +46,10 @@
                                     <action selector="tremorTestButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CMW-2o-4LA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ub-79-3Mj">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ub-79-3Mj">
                                 <rect key="frame" x="25" y="340" width="325" height="150"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.55147442690000004" green="0.82789698369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="ASq-B6-Y9G"/>
-                                    <constraint firstAttribute="width" secondItem="6ub-79-3Mj" secondAttribute="height" multiplier="13:6" id="E95-kc-fFG"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="NMj-ZS-nIa"/>
-                                    <constraint firstAttribute="width" constant="325" id="sGd-fZ-N9i"/>
-                                </constraints>
                                 <viewLayoutGuide key="safeArea" id="bgA-LW-GHb"/>
                                 <state key="normal" title="User Profile">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -76,14 +60,10 @@
                                     <segue destination="FiU-nr-qSV" kind="show" id="OCX-E2-Chk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Oo-AS-tq0">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Oo-AS-tq0">
                                 <rect key="frame" x="25" y="500" width="325" height="150"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.55147442690000004" green="0.82789698369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="6Oo-AS-tq0" secondAttribute="height" multiplier="13:6" id="Cng-as-2O0"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="Vbq-2q-LqS"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="325" id="aba-NX-n5u"/>
-                                </constraints>
                                 <viewLayoutGuide key="safeArea" id="8r6-dP-JIN"/>
                                 <state key="normal" title="Settings">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -95,25 +75,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="6Oo-AS-tq0" firstAttribute="centerX" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0UY-KX-EuU"/>
-                            <constraint firstItem="Mug-nw-b1W" firstAttribute="trailing" secondItem="6ub-79-3Mj" secondAttribute="trailing" id="1Jh-XH-BTi"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Oo-AS-tq0" secondAttribute="trailing" constant="25" id="BzJ-YI-K0G"/>
-                            <constraint firstItem="6Oo-AS-tq0" firstAttribute="top" secondItem="6ub-79-3Mj" secondAttribute="bottom" constant="10" id="Cla-Y8-jr3"/>
-                            <constraint firstItem="Mug-nw-b1W" firstAttribute="leading" secondItem="6ub-79-3Mj" secondAttribute="leading" id="FON-r5-Ys5"/>
-                            <constraint firstItem="Mug-nw-b1W" firstAttribute="top" secondItem="olp-MN-iNd" secondAttribute="bottom" constant="10" id="Vrj-Fp-bzP"/>
-                            <constraint firstItem="olp-MN-iNd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Wqc-NW-Yc5"/>
-                            <constraint firstItem="Mug-nw-b1W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YLB-v7-KQv"/>
-                            <constraint firstItem="olp-MN-iNd" firstAttribute="trailing" secondItem="Mug-nw-b1W" secondAttribute="trailing" id="cWR-GU-bCO"/>
-                            <constraint firstItem="6Oo-AS-tq0" firstAttribute="top" secondItem="6ub-79-3Mj" secondAttribute="bottom" constant="10" id="eIO-Db-kAF"/>
-                            <constraint firstItem="olp-MN-iNd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="iOI-Ii-SAM"/>
-                            <constraint firstItem="6ub-79-3Mj" firstAttribute="top" secondItem="Mug-nw-b1W" secondAttribute="bottom" constant="10" id="kJD-sz-83E"/>
-                            <constraint firstItem="6ub-79-3Mj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lxV-kM-67g"/>
-                            <constraint firstItem="olp-MN-iNd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q9w-Jy-aYm"/>
-                            <constraint firstItem="olp-MN-iNd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tZW-qF-frE"/>
-                            <constraint firstItem="6Oo-AS-tq0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="tpv-b2-vcK"/>
-                            <constraint firstItem="olp-MN-iNd" firstAttribute="leading" secondItem="Mug-nw-b1W" secondAttribute="leading" id="tsJ-Ye-tgp"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <size key="freeformSize" width="375" height="667"/>
@@ -997,9 +958,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Tu6-bF-nUx"/>
+        <segue reference="bPt-bP-NJH"/>
         <segue reference="y5T-u3-oCy"/>
         <segue reference="56k-OS-nQO"/>
         <segue reference="OCX-E2-Chk"/>
-        <segue reference="zub-Bd-g2R"/>
+        <segue reference="Vlw-ah-1d6"/>
     </inferredMetricsTieBreakers>
 </document>
