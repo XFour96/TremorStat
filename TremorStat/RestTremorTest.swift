@@ -5,7 +5,8 @@
 //  Created by ikukushk on 10/28/17.
 //  Copyright © 2017 Best Software. All rights reserved.
 //
-
+import UIKit
+//import Charts
 import Foundation
 import CoreMotion
 
@@ -15,9 +16,18 @@ class RestTremorTest: ViewController {
     
     var showResults = false
     
+    var cancel = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    var array = Array<Array<Double>>()
+    
+    func goToData()
+    {
+        performSegue(withIdentifier: "RestTremorViewData", sender: self)
     }
     
     override func viewDidAppear(_ animated: Bool)
@@ -25,7 +35,7 @@ class RestTremorTest: ViewController {
         //Create an array of x,y,z rotation coordinates
         var numColumns = 100
         var numRows = 3
-        var array = Array<Array<Double>>()
+        //var array = Array<Array<Double>>()
         for rows in 0...numRows {
             array.append(Array(repeating:0, count:numColumns))
         }
@@ -46,9 +56,9 @@ class RestTremorTest: ViewController {
                 //Printing first 5 digits of the x,y,z coordinates
                 print ("i=",i,"; x=",Double(round(10000*myData.rotationRate.x)/10000),"; y=",Double(round(1000*myData.rotationRate.y)/1000),"; z=",Double(round(1000*myData.rotationRate.z)/1000))
                 //Saving x,y,z data into an array
-                array[0][i]=myData.rotationRate.x
-                array[1][i]=myData.rotationRate.y
-                array[2][i]=myData.rotationRate.z
+                self.array[0][i]=myData.rotationRate.x
+                self.array[1][i]=myData.rotationRate.y
+                self.array[2][i]=myData.rotationRate.z
                 //Increment Array control variable and test duration control variable
                 timeInstance+=0.1
                 i+=1
@@ -58,18 +68,31 @@ class RestTremorTest: ViewController {
             if (timeInstance>=9.9){
                 weakSelf?.motionManager.stopGyroUpdates()
                 self.showResults = true
+                //performSegue(withIdentifier: "RestTremorViewData", sender: self)
+                //self.goToData()
             }
         }
         
-       /* if ( self.showResults ){
-            viewWillDisappear(false)
-            
-        }*/
+        
+        
+        if ( self.showResults ){
+            //viewWillDisappear(false)
+            self.goToData()
+        }
+    }
+    @IBAction func cancelTest(_ sender: UIButton) {
+        cancel = true
     }
     
-    /*override func prepare( for segue: UIStoryboardSegue, sender: Any? ){
-        var secondController = segue.destination as! SecondController
-    }*/
+    override func prepare( for segue: UIStoryboardSegue, sender: Any? ){
+        if( cancel != true )
+        {
+            var tremorTestViewData = segue.destination as! TremorTestViewData
+            tremorTestViewData.dataArray = self.array;
+        }
+        
+        //var globalViewController = segue.destination as! GlobalViewController
+    }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)

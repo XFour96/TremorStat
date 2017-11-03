@@ -751,10 +751,10 @@
             </objects>
             <point key="canvasLocation" x="2078" y="856"/>
         </scene>
-        <!--Global View Controller-->
+        <!--Tremor Test View Data-->
         <scene sceneID="zIO-ux-D8R">
             <objects>
-                <viewController storyboardIdentifier="RestTremorResults" id="Jum-kv-zVl" customClass="GlobalViewController" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RestTremorResults" id="Jum-kv-zVl" customClass="TremorTestViewData" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cb9-MW-tR4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -764,7 +764,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Xa-JG-vZy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790" y="-1310"/>
+            <point key="canvasLocation" x="789.60000000000002" y="-1311.0944527736133"/>
         </scene>
         <!--Rest Tremor Test-->
         <scene sceneID="C0h-Zn-R7w">
@@ -786,6 +786,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cancel Test"/>
                                 <connections>
+                                    <action selector="cancelTest:" destination="O3g-oU-Yfk" eventType="touchUpInside" id="urK-9y-d1F"/>
                                     <segue destination="T3B-Lh-gCh" kind="show" id="56k-OS-nQO"/>
                                 </connections>
                             </button>
@@ -793,10 +794,45 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="T9e-ZX-3tQ"/>
                     </view>
+                    <connections>
+                        <segue destination="Jum-kv-zVl" kind="show" identifier="RestTremorViewData" id="e9k-rB-vL9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a7b-MH-HTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="800.79999999999995" y="-596.85157421289364"/>
+        </scene>
+        <!--Rest Tremor Test-->
+        <scene sceneID="KOr-G1-ZwA">
+            <objects>
+                <viewController id="ahO-5G-fpk" customClass="RestTremorTest" customModule="TremorStat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LKd-7R-wmA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Test Currently In Progress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4u-tV-ytq">
+                                <rect key="frame" x="84" y="197" width="206" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VcK-rP-LnO">
+                                <rect key="frame" x="147" y="514" width="81" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel Test"/>
+                                <connections>
+                                    <segue destination="C60-o1-3au" kind="show" id="y5T-u3-oCy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="h5B-rA-kjB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lPK-QX-LQA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1500" y="-573"/>
         </scene>
         <!--Global View Controller-->
         <scene sceneID="Xw4-Pk-osh">
@@ -834,6 +870,13 @@
                                     <segue destination="O3g-oU-Yfk" kind="show" id="Tu6-bF-nUx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flip Page for the Action Tremor Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIG-9p-yCd">
+                                <rect key="frame" x="40" y="447" width="294" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="yA2-j1-52T"/>
@@ -841,7 +884,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IvV-Ky-cAV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="802" y="118"/>
+            <point key="canvasLocation" x="800.79999999999995" y="117.39130434782609"/>
         </scene>
         <!--Global View Controller-->
         <scene sceneID="qeN-jl-YJl">
@@ -866,6 +909,26 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="Vlw-ah-1d6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MR-DM-uPa">
+                                <rect key="frame" x="62" y="271" width="250" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55147442690000004" green="0.82789698369999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.40899421650000001" green="0.63106159569999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tremorTestButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1bB-UI-o3Y"/>
+                                    <segue destination="ahO-5G-fpk" kind="show" id="bPt-bP-NJH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flip Page for the Rest Tremor Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqr-h0-K4M">
+                                <rect key="frame" x="40" y="446" width="294" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="e1f-RC-pqX"/>
@@ -890,8 +953,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="y5T-u3-oCy"/>
         <segue reference="56k-OS-nQO"/>
         <segue reference="LO6-yr-2v9"/>
-        <segue reference="zub-Bd-g2R"/>
+        <segue reference="Vlw-ah-1d6"/>
     </inferredMetricsTieBreakers>
 </document>
