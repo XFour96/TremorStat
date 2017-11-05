@@ -6,7 +6,6 @@
 //  Copyright © 2017 Best Software. All rights reserved.
 //
 import UIKit
-//import Charts
 import Foundation
 import CoreMotion
 
