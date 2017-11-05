@@ -37,6 +37,12 @@
 		9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F81FA5465E003C202E /* GlobalViewController.swift */; };
 		9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8FA1FA548A3003C202E /* RestTremorTest.swift */; };
 		9943E8FD1FA55BA6003C202E /* TremorTestViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */; };
+		E8AC52F41FAE78370051C326 /* UIViewController+Enumerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC52F01FAE78360051C326 /* UIViewController+Enumerate.swift */; };
+		E8AC52F51FAE78370051C326 /* GraphSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC52F11FAE78360051C326 /* GraphSegment.swift */; };
+		E8AC52F61FAE78370051C326 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC52F21FAE78360051C326 /* GraphView.swift */; };
+		E8AC52F71FAE78370051C326 /* CGContext+GraphLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC52F31FAE78370051C326 /* CGContext+GraphLines.swift */; };
+		E8AC52F91FAE783F0051C326 /* MotionGraphContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC52F81FAE783F0051C326 /* MotionGraphContainer.swift */; };
+		E8AC52FB1FAE78460051C326 /* GyroscopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AC52FA1FAE78460051C326 /* GyroscopeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +101,12 @@
 		9943E8F81FA5465E003C202E /* GlobalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
 		9943E8FA1FA548A3003C202E /* RestTremorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTremorTest.swift; sourceTree = "<group>"; };
 		9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorTestViewData.swift; sourceTree = "<group>"; };
+		E8AC52F01FAE78360051C326 /* UIViewController+Enumerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Enumerate.swift"; path = "../../../../Downloads/MotionGraphs/MotionGraphs/UIViewController+Enumerate.swift"; sourceTree = "<group>"; };
+		E8AC52F11FAE78360051C326 /* GraphSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphSegment.swift; path = ../../../../Downloads/MotionGraphs/MotionGraphs/GraphSegment.swift; sourceTree = "<group>"; };
+		E8AC52F21FAE78360051C326 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = ../../../../Downloads/MotionGraphs/MotionGraphs/GraphView.swift; sourceTree = "<group>"; };
+		E8AC52F31FAE78370051C326 /* CGContext+GraphLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGContext+GraphLines.swift"; path = "../../../../Downloads/MotionGraphs/MotionGraphs/CGContext+GraphLines.swift"; sourceTree = "<group>"; };
+		E8AC52F81FAE783F0051C326 /* MotionGraphContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionGraphContainer.swift; path = ../../../../Downloads/MotionGraphs/MotionGraphs/MotionGraphContainer.swift; sourceTree = "<group>"; };
+		E8AC52FA1FAE78460051C326 /* GyroscopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GyroscopeViewController.swift; path = ../../../../Downloads/MotionGraphs/MotionGraphs/GyroscopeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +200,7 @@
 			children = (
 				992BFE9C1FAD37110054EB33 /* ActionTremorTest.swift */,
 				9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */,
+				E8AC52EF1FAE78240051C326 /* Plotting  */,
 				9943E8FA1FA548A3003C202E /* RestTremorTest.swift */,
 				990AB40B1FA3D762000B9067 /* AppDelegate.swift */,
 				990AB40D1FA3D762000B9067 /* ViewController.swift */,
@@ -215,6 +228,19 @@
 				990AB42D1FA3D762000B9067 /* Info.plist */,
 			);
 			path = TremorStatUITests;
+			sourceTree = "<group>";
+		};
+		E8AC52EF1FAE78240051C326 /* Plotting  */ = {
+			isa = PBXGroup;
+			children = (
+				E8AC52FA1FAE78460051C326 /* GyroscopeViewController.swift */,
+				E8AC52F81FAE783F0051C326 /* MotionGraphContainer.swift */,
+				E8AC52F31FAE78370051C326 /* CGContext+GraphLines.swift */,
+				E8AC52F11FAE78360051C326 /* GraphSegment.swift */,
+				E8AC52F21FAE78360051C326 /* GraphView.swift */,
+				E8AC52F01FAE78360051C326 /* UIViewController+Enumerate.swift */,
+			);
+			path = "Plotting ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,7 +386,13 @@
 			files = (
 				992BFE9D1FAD37110054EB33 /* ActionTremorTest.swift in Sources */,
 				9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */,
+				E8AC52F71FAE78370051C326 /* CGContext+GraphLines.swift in Sources */,
+				E8AC52F41FAE78370051C326 /* UIViewController+Enumerate.swift in Sources */,
+				E8AC52F91FAE783F0051C326 /* MotionGraphContainer.swift in Sources */,
+				E8AC52F51FAE78370051C326 /* GraphSegment.swift in Sources */,
 				9943E8FD1FA55BA6003C202E /* TremorTestViewData.swift in Sources */,
+				E8AC52F61FAE78370051C326 /* GraphView.swift in Sources */,
+				E8AC52FB1FAE78460051C326 /* GyroscopeViewController.swift in Sources */,
 				9943E8F71FA52E2D003C202E /* PageViewController.swift in Sources */,
 				9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */,
 				990AB40E1FA3D762000B9067 /* ViewController.swift in Sources */,
