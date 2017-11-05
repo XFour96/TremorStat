@@ -37,12 +37,7 @@
 		9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8F81FA5465E003C202E /* GlobalViewController.swift */; };
 		9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8FA1FA548A3003C202E /* RestTremorTest.swift */; };
 		9943E8FD1FA55BA6003C202E /* TremorTestViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */; };
-		995F8BCA1FAE95B200334695 /* GyroscopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F8BC41FAE95B100334695 /* GyroscopeViewController.swift */; };
-		995F8BCB1FAE95B200334695 /* GraphSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F8BC51FAE95B100334695 /* GraphSegment.swift */; };
-		995F8BCC1FAE95B200334695 /* CGContext+GraphLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F8BC61FAE95B100334695 /* CGContext+GraphLines.swift */; };
-		995F8BCD1FAE95B200334695 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F8BC71FAE95B100334695 /* GraphView.swift */; };
-		995F8BCE1FAE95B200334695 /* UIViewController+Enumerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F8BC81FAE95B100334695 /* UIViewController+Enumerate.swift */; };
-		995F8BCF1FAE95B200334695 /* MotionGraphContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F8BC91FAE95B100334695 /* MotionGraphContainer.swift */; };
+		99D75C6D1FAE9F3100966318 /* ThisIsATestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D75C6C1FAE9F3100966318 /* ThisIsATestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,12 +96,7 @@
 		9943E8F81FA5465E003C202E /* GlobalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalViewController.swift; sourceTree = "<group>"; };
 		9943E8FA1FA548A3003C202E /* RestTremorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTremorTest.swift; sourceTree = "<group>"; };
 		9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TremorTestViewData.swift; sourceTree = "<group>"; };
-		995F8BC41FAE95B100334695 /* GyroscopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GyroscopeViewController.swift; path = ../../../../Downloads/MotionGraphs/MotionGraphs/GyroscopeViewController.swift; sourceTree = "<group>"; };
-		995F8BC51FAE95B100334695 /* GraphSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphSegment.swift; path = ../../../../Downloads/MotionGraphs/MotionGraphs/GraphSegment.swift; sourceTree = "<group>"; };
-		995F8BC61FAE95B100334695 /* CGContext+GraphLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGContext+GraphLines.swift"; path = "../../../../Downloads/MotionGraphs/MotionGraphs/CGContext+GraphLines.swift"; sourceTree = "<group>"; };
-		995F8BC71FAE95B100334695 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = ../../../../Downloads/MotionGraphs/MotionGraphs/GraphView.swift; sourceTree = "<group>"; };
-		995F8BC81FAE95B100334695 /* UIViewController+Enumerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Enumerate.swift"; path = "../../../../Downloads/MotionGraphs/MotionGraphs/UIViewController+Enumerate.swift"; sourceTree = "<group>"; };
-		995F8BC91FAE95B100334695 /* MotionGraphContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionGraphContainer.swift; path = ../../../../Downloads/MotionGraphs/MotionGraphs/MotionGraphContainer.swift; sourceTree = "<group>"; };
+		99D75C6C1FAE9F3100966318 /* ThisIsATestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisIsATestController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,7 +188,7 @@
 		990AB40A1FA3D762000B9067 /* TremorStat */ = {
 			isa = PBXGroup;
 			children = (
-				995F8BC31FAE959800334695 /* Plotting */,
+				99D75C6B1FAE9F1800966318 /* Plotting */,
 				992BFE9C1FAD37110054EB33 /* ActionTremorTest.swift */,
 				9943E8FC1FA55BA6003C202E /* TremorTestViewData.swift */,
 				9943E8FA1FA548A3003C202E /* RestTremorTest.swift */,
@@ -230,15 +220,10 @@
 			path = TremorStatUITests;
 			sourceTree = "<group>";
 		};
-		995F8BC31FAE959800334695 /* Plotting */ = {
+		99D75C6B1FAE9F1800966318 /* Plotting */ = {
 			isa = PBXGroup;
 			children = (
-				995F8BC61FAE95B100334695 /* CGContext+GraphLines.swift */,
-				995F8BC51FAE95B100334695 /* GraphSegment.swift */,
-				995F8BC71FAE95B100334695 /* GraphView.swift */,
-				995F8BC41FAE95B100334695 /* GyroscopeViewController.swift */,
-				995F8BC91FAE95B100334695 /* MotionGraphContainer.swift */,
-				995F8BC81FAE95B100334695 /* UIViewController+Enumerate.swift */,
+				99D75C6C1FAE9F3100966318 /* ThisIsATestController.swift */,
 			);
 			path = Plotting;
 			sourceTree = "<group>";
@@ -386,17 +371,12 @@
 			files = (
 				992BFE9D1FAD37110054EB33 /* ActionTremorTest.swift in Sources */,
 				9943E8FB1FA548A3003C202E /* RestTremorTest.swift in Sources */,
-				995F8BCC1FAE95B200334695 /* CGContext+GraphLines.swift in Sources */,
-				995F8BCD1FAE95B200334695 /* GraphView.swift in Sources */,
-				995F8BCA1FAE95B200334695 /* GyroscopeViewController.swift in Sources */,
-				995F8BCF1FAE95B200334695 /* MotionGraphContainer.swift in Sources */,
-				995F8BCB1FAE95B200334695 /* GraphSegment.swift in Sources */,
 				9943E8FD1FA55BA6003C202E /* TremorTestViewData.swift in Sources */,
 				9943E8F71FA52E2D003C202E /* PageViewController.swift in Sources */,
 				9943E8F91FA5465F003C202E /* GlobalViewController.swift in Sources */,
 				990AB40E1FA3D762000B9067 /* ViewController.swift in Sources */,
-				995F8BCE1FAE95B200334695 /* UIViewController+Enumerate.swift in Sources */,
 				990AB40C1FA3D762000B9067 /* AppDelegate.swift in Sources */,
+				99D75C6D1FAE9F3100966318 /* ThisIsATestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
